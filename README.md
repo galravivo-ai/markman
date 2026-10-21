@@ -1,20 +1,9 @@
-# מרקמן טומשין ושות' — אתר
+# Markman Tomashin – צוואות וייפוי כוח
 
-אתר סטטי. אפשר להעלות כמו שהוא ל-GitHub Pages.
-
-## עמודים
-- index.html — עמוד הבית
-- will.html — צוואה
-- power-of-attorney.html — ייפוי כוח מתמשך
-- bundle.html — צוואה + ייפוי כוח (מומלץ)
-- questionnaire.html — שאלון התאמה
-- upsell.html — מסך סיום השאלון
-- contact.html — צור קשר
+כל דף הוא קובץ עצמאי (תמונות, עיצוב וקוד בתוך הקובץ) – אין תיקיות או קבצים נוספים.
 
 ## העלאה ל-GitHub Pages
-1. מעלים את כל תוכן התיקייה (כולל support.js, image-slot.js, .nojekyll ותיקיית assets) לשורש הריפו.
-2. Settings → Pages → Deploy from branch → main / root.
-
-## תמונות
-המקומות לתמונות (image-slot) מציגים מסגרת ריקה. כדי להכניס תמונה קבועה, מחליפים את התג
-`<image-slot id="...">` בתג `<img src="assets/שם-הקובץ.jpg" style="width:100%;height:100%;object-fit:cover">`.
+1. מחקו מהריפו את כל הקבצים הקודמים.
+2. העלו את 6 קבצי ה-HTML האלה לשורש הריפו.
+3. Settings → Pages → Deploy from a branch → main / (root) → Save.
+4. אחרי דקה-שתיים: https://<user>.github.io/<repo>/
